@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchFilesController">
+   <children>
+      <Label layoutX="87.0" layoutY="39.0" text="Name" />
+      <Label layoutX="20.0" layoutY="92.0" prefHeight="17.0" prefWidth="108.0" text="Year of Graduation" />
+      <TextField fx:id="NameField" layoutX="145.0" layoutY="35.0" prefHeight="25.0" prefWidth="125.0" />
+      <TextField fx:id="YearField" layoutX="145.0" layoutY="88.0" prefHeight="25.0" prefWidth="125.0" />
+      <Button layoutX="38.0" layoutY="136.0" mnemonicParsing="false" onAction="#search" prefHeight="35.0" prefWidth="90.0" text="Search" />
+      <Button layoutX="171.0" layoutY="136.0" mnemonicParsing="false" onAction="#back" prefHeight="35.0" prefWidth="90.0" text="Back" />
+   </children>
+</AnchorPane>
