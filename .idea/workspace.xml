@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/Controllers/AddFilesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/Controllers/AddFilesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/Controllers/EditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/Controllers/EditController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/Controllers/RetrieveFilesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/Controllers/RetrieveFilesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/AddFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/AddFilesWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/ChangePasswordWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/ChangePasswordWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/EditWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/EditWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/LoginWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/MainWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/RetrieveFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/RetrieveFilesWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/FXML/SearchFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DORA Software/FXML/SearchFilesWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DORA Software/META-INF/DORA Software.kotlin_module" beforeDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/RetrieveFilesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
+            <state relative-caret-position="424">
               <caret line="139" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -116,6 +130,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -154,6 +171,7 @@
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -162,24 +180,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DORA Software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DORA Software" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DORA Software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DORA Software" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,12 +197,13 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NUMMETS_Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -382,8 +386,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21331316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -485,38 +490,38 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FXML/SearchFilesWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/AddFilesWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/ChangePasswordWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/EditDeleteController.java" />
     <entry file="file://$PROJECT_DIR$/src/FXML/EditDeleteWindow.fxml" />
     <entry file="file://$PROJECT_DIR$/src/FXML/MainWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -536,20 +541,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/LoginWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/EditWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/EditController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,12 +628,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FXML/RetrieveFilesWindow.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/EncryptionClass.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,7 +719,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/RetrieveFilesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
+        <state relative-caret-position="424">
           <caret line="139" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="imports" expanded="true" />
