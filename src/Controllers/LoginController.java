@@ -11,6 +11,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 import sample.DecryptionClass;
 
@@ -27,6 +28,10 @@ public class LoginController {
 
     private String username;
     private String password;
+    public String question = "Name one of the developers of this software (First Names)";
+    public String answer = "Jessica";
+    public String answer2 = "Francis";
+    public String answer3 = "John";
 
 
     @FXML
@@ -38,6 +43,7 @@ public class LoginController {
         BufferedReader fileReader = new BufferedReader(new FileReader(new File("./src/assets/password.dat")));
         password = DecryptionClass.ProcessDecryption(fileReader.readLine(),3);
         fileReader.close();
+
     }
 
     @FXML
@@ -76,8 +82,26 @@ public class LoginController {
     }
 
     @FXML
-    public void exit(ActionEvent event) {
+    public void ForgetPassword(ActionEvent event) throws  IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/FXML/ForgetPasswordWindow.fxml"));
+        Parent root = fxmlLoader.load();
+        Scene scene = new Scene(root);
+        Stage window = new Stage();
+        window.setScene(scene);
+        window.setTitle("Forget Password Window");
+        window.show();
+        ForgetPasswordController controller = fxmlLoader.getController();
+        controller.AppendTexts(question,answer,answer2,answer3);
+
+        exit(event);
+    }
+
+    @FXML
+    public void exit(ActionEvent event) throws IOException {
+
         ((Node)(event.getSource())).getScene().getWindow().hide();
+
     }
 
     private void DisplayNotification(String warning){

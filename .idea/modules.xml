@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DORA Software.iml" filepath="$PROJECT_DIR$/DORA Software.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DORA-Document-Organizer-and-Repository-Arranger-master.iml" filepath="$PROJECT_DIR$/.idea/DORA-Document-Organizer-and-Repository-Arranger-master.iml" />
     </modules>
   </component>
 </project>
