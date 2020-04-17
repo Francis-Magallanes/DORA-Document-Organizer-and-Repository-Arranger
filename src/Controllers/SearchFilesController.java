@@ -60,9 +60,13 @@ public class SearchFilesController {
 
         List<File> files = FileChooser.showOpenMultipleDialog(stage);
 
-        if(!files.isEmpty()){
-           transferFiles(filepathFolder,files);
-           DisplaySuccessNotif("Files are sucessfully transferred");
+        if(files != null){
+
+            if(!files.isEmpty()){
+                transferFiles(filepathFolder,files);
+                DisplaySuccessNotif("Files are sucessfully transferred");
+            }
+
         }
 
     }

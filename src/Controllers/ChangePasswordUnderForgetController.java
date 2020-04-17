@@ -57,8 +57,6 @@ public class ChangePasswordUnderForgetController {
 
             DisplaySuccesfulNotification();
 
-            cancel(event);//this will close the window
-
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("/FXML/LoginWindow.fxml"));
             Parent root = fxmlLoader.load();
@@ -69,7 +67,7 @@ public class ChangePasswordUnderForgetController {
             window.setTitle("D.O.R.A - Login");
             window.initModality(Modality.APPLICATION_MODAL);
             window.show();
-
+            ((Node)(event.getSource())).getScene().getWindow().hide();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -77,8 +75,19 @@ public class ChangePasswordUnderForgetController {
     }
 
     @FXML
-    public void cancel(ActionEvent event) {
+    public void cancel(ActionEvent event) throws IOException{
         ((Node)(event.getSource())).getScene().getWindow().hide();
+
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        fxmlLoader.setLocation(getClass().getResource("/FXML/LoginWindow.fxml"));
+        Parent root = fxmlLoader.load();
+        Scene scene = new Scene(root);
+        Stage window = new Stage();
+        window.setResizable(false);
+        window.setScene(scene);
+        window.setTitle("D.O.R.A - Login");
+        window.initModality(Modality.APPLICATION_MODAL);
+        window.show();
     }
 
     private void DisplayNotification(String warning){
