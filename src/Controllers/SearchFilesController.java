@@ -196,16 +196,19 @@ public class SearchFilesController {
         listView.getSelectionModel().setSelectionMode(SelectionMode.SINGLE);
 
         listView.setOnMouseClicked(event -> {
-            studentNameField.setText(listView.getSelectionModel().getSelectedItems().get(0).toString());
-            addFilesButton.setDisable(false);
-            deleteButton.setDisable(false);
-            editButton.setDisable(false);
-            retrieveButton.setDisable(false);
-            lastNameField.setText("");
-            name = studentNameField.getText();
-            filepathFolder = "./root/"+ studentNameField.getText().toUpperCase().charAt(0) + "/"+ studentNameField.getText() ;
-            filename = studentNameField.getText() + " .dat";
-            primaryStage.hide();
+            if(listView.getSelectionModel().getSelectedItems().get(0) != null){
+                studentNameField.setText(listView.getSelectionModel().getSelectedItems().get(0).toString());
+                addFilesButton.setDisable(false);
+                deleteButton.setDisable(false);
+                editButton.setDisable(false);
+                retrieveButton.setDisable(false);
+                lastNameField.setText("");
+                name = studentNameField.getText();
+                filepathFolder = "./root/"+ studentNameField.getText().toUpperCase().charAt(0) + "/"+ studentNameField.getText() ;
+                filename = studentNameField.getText() + " .dat";
+                primaryStage.hide();
+            }
+
         });
 
         vBox.getChildren().add(listView);
@@ -245,17 +248,20 @@ public class SearchFilesController {
 
         List<File> files = FileChooser.showOpenMultipleDialog(stage);
 
-        if(!files.isEmpty()){
+        if(files != null){
 
-            Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Do you want to delete these files? Deleting these files cannot be reverted");
-            Optional<ButtonType> confirmation = alert.showAndWait();
+            if(!files.isEmpty()){
+                Alert alert = new Alert(Alert.AlertType.CONFIRMATION,"Do you want to delete these files? Deleting these files cannot be reverted");
+                Optional<ButtonType> confirmation = alert.showAndWait();
 
-            if(confirmation.get().getText().equals("OK")){
+                if(confirmation.get().getText().equals("OK")){
 
-                for(File f : files){
-                    f.delete();
+                    for(File f : files){
+                        f.delete();
+                    }
+                    DisplaySuccessNotif("The selected files are now deleted");
                 }
-                DisplaySuccessNotif("The selected files are now deleted");
+
             }
 
         }

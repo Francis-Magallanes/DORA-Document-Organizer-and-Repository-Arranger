@@ -32,7 +32,7 @@ public class EditController {
             this.filepathFolder = filepathFolder;
             oldInfo = name;
             filepathDATFile = filepathFolder + "/" + filename;
-            BufferedReader fileReader = new BufferedReader(new FileReader(new File(filepathDATFile )));
+            BufferedReader fileReader = new BufferedReader(new FileReader(new File(filepathDATFile)));
             lastNameField.setText(fileReader.readLine());
             givenNameField.setText(fileReader.readLine());
             middleNameField.setText(fileReader.readLine());
@@ -79,7 +79,7 @@ public class EditController {
             fileWriter.close();
 
             File fileDAT = new File(filepathDATFile);
-            fileDAT.renameTo(new File(filepathFolder + "/" + lastNameField.getText()+ "_" + givenNameField.getText() + "_" + middleNameField.getText() +".dat"));
+            fileDAT.renameTo(new File(filepathFolder + "/" + lastNameField.getText()+ "_" + givenNameField.getText() + "_" + middleNameField.getText() +" .dat"));
 
             File folderInfo = new File(filepathFolder);
             folderInfo.renameTo(new File(newFolderpath));

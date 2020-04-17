@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c9d0715-fc6c-4863-ad3d-c835834a7bb3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Controllers/SearchFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/SearchFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/AddFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/AddFilesWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/ChangePasswordUnderForgetWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/ChangePasswordUnderForgetWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/ChangePasswordWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/ChangePasswordWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/EditWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/EditWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/ForgetPasswordWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/ForgetPasswordWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/LoginWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/LoginWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/RetrieveFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/RetrieveFilesWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FXML/SearchFilesWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FXML/SearchFilesWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +45,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controllers/SearchFilesController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+            <state relative-caret-position="1615">
+              <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+              <folding>
+                <element signature="method#addFilesAction#0;class#SearchFilesController#0" />
+                <element signature="method#deleteAction#0;class#SearchFilesController#0" />
+                <element signature="method#editAction#0;class#SearchFilesController#0" />
+                <element signature="method#RetrieveAction#0;class#SearchFilesController#0" />
+                <element signature="method#revertDefault#0;class#SearchFilesController#0" />
+                <element signature="method#transferFiles#0;class#SearchFilesController#0" />
+                <element signature="method#DisplayWarning#0;class#SearchFilesController#0" />
+                <element signature="method#DisplaySuccessNotif#0;class#SearchFilesController#0" />
+                <element signature="method#deleteFilesExecute#0;class#SearchFilesController#0" />
+                <element signature="method#deleteDir#0;class#SearchFilesController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controllers/EditController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -68,6 +80,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/Controllers/EditController.java" />
         <option value="$PROJECT_DIR$/src/Controllers/SearchFilesController.java" />
       </list>
     </option>
@@ -93,6 +106,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,7 +119,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -114,7 +127,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DORA-Document-Organizer-and-Repository-Arranger" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -163,12 +177,34 @@
       <option name="presentableId" value="Default" />
       <updated>1587103238055</updated>
     </task>
+    <task id="LOCAL-00001" summary="null pointer error is solved">
+      <created>1587111430679</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587111430679</updated>
+    </task>
+    <task id="LOCAL-00002" summary="errors in the edit student info are resolved">
+      <created>1587112161078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587112161078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="errors in the selection of student are resolved">
+      <created>1587112834950</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587112834950</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -182,7 +218,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Sequence2" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -197,8 +233,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="null pointer error is solved" />
+    <MESSAGE value="errors in the edit student info are resolved" />
+    <MESSAGE value="errors in the selection of student are resolved" />
+    <option name="LAST_COMMIT_MESSAGE" value="errors in the selection of student are resolved" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/jbootx/src/main/resources/bootstrap3overview.fxml">
+    <entry file="file://$PROJECT_DIR$/../jbootx/src/main/resources/bootstrap3overview.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -206,7 +248,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/jbootx/src/main/resources/bootstrap2overview.fxml">
+    <entry file="file://$PROJECT_DIR$/../jbootx/src/main/resources/bootstrap2overview.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -235,10 +277,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controllers/EditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controllers/SearchFilesController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        <state relative-caret-position="1615">
+          <caret line="200" column="49" selection-start-line="200" selection-start-column="49" selection-end-line="200" selection-end-column="49" />
+          <folding>
+            <element signature="method#addFilesAction#0;class#SearchFilesController#0" />
+            <element signature="method#deleteAction#0;class#SearchFilesController#0" />
+            <element signature="method#editAction#0;class#SearchFilesController#0" />
+            <element signature="method#RetrieveAction#0;class#SearchFilesController#0" />
+            <element signature="method#revertDefault#0;class#SearchFilesController#0" />
+            <element signature="method#transferFiles#0;class#SearchFilesController#0" />
+            <element signature="method#DisplayWarning#0;class#SearchFilesController#0" />
+            <element signature="method#DisplaySuccessNotif#0;class#SearchFilesController#0" />
+            <element signature="method#deleteFilesExecute#0;class#SearchFilesController#0" />
+            <element signature="method#deleteDir#0;class#SearchFilesController#0" />
+          </folding>
         </state>
       </provider>
     </entry>
