@@ -20,13 +20,13 @@
             <Font size="25.0" />
          </font>
       </Label>
-      <VBox alignment="TOP_CENTER" layoutX="204.0" layoutY="210.0" prefHeight="226.0" prefWidth="243.0" spacing="15.0">
+      <VBox alignment="TOP_CENTER" layoutX="204.0" layoutY="210.0" prefHeight="226.0" prefWidth="273.0" spacing="15.0">
          <children>
-            <Button fx:id="addFilesButton" mnemonicParsing="false" onAction="#addFilesAction" prefHeight="38.0" prefWidth="243.0" text="Add Files to Existing Info" />
-            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteAction" prefHeight="38.0" prefWidth="243.0" text=" Remove Files/ Remove Student Info" />
-            <Button fx:id="editButton" mnemonicParsing="false" onAction="#editAction" prefHeight="38.0" prefWidth="243.0" text="Edit Student Info" />
-            <Button fx:id="retrieveButton" mnemonicParsing="false" onAction="#RetrieveAction" prefHeight="38.0" prefWidth="252.0" text="Retrieve Files" />
-            <Button mnemonicParsing="false" onAction="#back" prefHeight="38.0" prefWidth="243.0" text="Back" />
+            <Button fx:id="addFilesButton" mnemonicParsing="false" onAction="#addFilesAction" prefHeight="32.0" prefWidth="276.0" text="Add Files to Existing Info" />
+            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteAction" prefHeight="32.0" prefWidth="277.0" text=" Remove Files/ Remove Student Info" />
+            <Button fx:id="editButton" mnemonicParsing="false" onAction="#editAction" prefHeight="32.0" prefWidth="277.0" text="Edit Student Info" />
+            <Button fx:id="retrieveButton" mnemonicParsing="false" onAction="#RetrieveAction" prefHeight="32.0" prefWidth="290.0" text="Retrieve Files" />
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="32.0" prefWidth="280.0" text="Back" />
          </children>
       </VBox>
       <Label layoutX="122.0" layoutY="191.0" text="Commands:">
